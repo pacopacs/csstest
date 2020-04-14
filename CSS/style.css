@@ -1,0 +1,78 @@
+/************************TAG***********************/
+body
+{
+  background-color: #c6fdc6;
+}
+hr
+{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #e6ffff;
+  border-width: 10px;
+  height: 0px;
+  width: 8%;    
+}
+h1
+{
+  color: #800080;
+  text-shadow: 5px 5px 5px #856c8b;
+}
+
+h2
+{
+  color: #800080;
+  text-decoration: underline  1px;
+}
+
+/****************************CLASS**********************************/
+
+.contact
+{
+
+  border-radius: 10%;
+  width: 15%;
+  height: auto;
+}
+
+.contact:hover
+{
+  transform: scaleX(-1);
+}
+
+.circular
+{
+  border-radius: 100%;
+}
+
+.swimm
+{
+  width: 50%;
+  height: auto;
+  position: fixed;
+  right:25%; 
+  top: 20%;
+}
+
+.swimm .noway
+{
+  width: 50%;
+  height: auto;
+  position: fixed;
+  right:25%; 
+  top: 10%;
+  display: none;
+}
+
+.swimm:hover .noway
+{
+  display: inline;
+}
+
+.enlinea li
+{
+  list-style-type: none;
+  display: inline;
+  margin-left: 200px;
+}
+
+
